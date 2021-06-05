@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Other stuff
+.vscode/settings.json
+poetry.lock
+config.toml

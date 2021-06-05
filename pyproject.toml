@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sharex-server"
+version = "0.1.0"
+description = "ShareX server for uploading media."
+authors = ["Taarek"]
+license = "mit"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = {extras = ["all"], version = "^0.65.1"}
+uvloop = "^0.15.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.5b2", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

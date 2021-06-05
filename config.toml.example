@@ -1,0 +1,14 @@
+[authentication]
+token = "replacethis"
+
+[general]
+retain_name = true # Whether to keep the file name that ShareX generates when taking a screenshot or so.
+file_name_length = 6 # The automatically generated string (using secrets.token_urlsafe) for file identifiers.
+
+
+# These are the defaults. If you change them, please rename/recreate the folders, or you'll get errors.
+[paths]
+image = "image/"
+audio = "audio/"
+video = "video/"
+general = "general/"
