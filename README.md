@@ -6,7 +6,7 @@
 * Install Poetry instructions can be found [here](https://python-poetry.org/docs/).
 * Run ``poetry install`` in the cloned folder afterwards.
 
-- If you don't want to install Poetry, install ``fastapi[all]`` and ``uvloop`` with pip.
+- If you don't want to install Poetry, use ``pip install -r requirements.txt`` instead.
 
     ⚠ ``uvloop`` is only installable on *nix systems, Windows is not supported, but you can still use this without uvloop. :)
 
