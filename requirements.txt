@@ -1,2 +1,2 @@
-fastapi[all]==0.65.1
+fastapi[all]==0.65.2
 uvloop==0.15.2; sys_platform != "win32" and implementation_name == "cpython"
