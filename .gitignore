@@ -130,5 +130,4 @@ dmypy.json
 
 # Other stuff
 .vscode/settings.json
-poetry.lock
 config.toml
